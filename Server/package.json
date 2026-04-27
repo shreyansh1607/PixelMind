@@ -5,7 +5,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo 'No build step required for server'",
+    "prod": "NODE_ENV=production node index.js"
   },
   "author": "",
   "license": "ISC",
